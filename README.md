@@ -18,12 +18,12 @@ CMS-style blog site similar to a Wordpress site, where developers can publish th
 8. Run `npm start` from in terminal to connect to the server.
 9. Open web browser to localhost:3001 to connect to the server.
 
-Main Page:
-
-Login and Sign Up Page:
-
-User:
-
+## Main Page:
+![Main Page](assets/images/main.png)
+## Login and Sign Up Page:
+![Login](assets/images/login.png)
+## User:
+![User](assets/images/user.png)
 # Deployment
 
 [Heroku App: Techie Blurbs](https://techie-blurbs.herokuapp.com)
