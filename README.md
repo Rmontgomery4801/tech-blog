@@ -1,4 +1,4 @@
-# Tech Blog
+# Tech Blog: Techie Blurbs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,7 +8,7 @@ CMS-style blog site similar to a Wordpress site, where developers can publish th
 
 # Installation
 
-1. clone the repository from GitHub.
+1. Clone the repository from GitHub.
 2. Run `npm i` to install dependencies.
 3. Create `.env` file to store credentials.
 4. Run `mysql -u root -p` and enter your username, password, & database.
@@ -16,10 +16,14 @@ CMS-style blog site similar to a Wordpress site, where developers can publish th
 6. Exit mysql to entering `exit`
 7. Run `npm run seeds` to seed database from the root directory in the terminal.
 8. Run `npm start` from in terminal to connect to the server.
-9. open web browser to localhost:3001 to connect to the server.
+9. Open web browser to localhost:3001 to connect to the server.
 
 Main Page:
 
 Login and Sign Up Page:
 
 User:
+
+# Deployment
+
+[Heroku App: Techie Blurbs](https://techie-blurbs.herokuapp.com)

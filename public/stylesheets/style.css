@@ -8,7 +8,7 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   color: black;
 }
 
@@ -36,6 +36,11 @@ button {
 
 button:hover {
   background-color: #f10707;
+}
+
+h3 {
+  font-size: x-large;
+  display: flex;
 }
 
 .login-form {
@@ -123,7 +128,7 @@ header {
   background-color: rgb(20, 20, 20);
   border-bottom: 1px solid #ccc;
   display: flex;
-  font-family: monospace;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   justify-content: space-between;
   align-items: center;
   padding: 4% 5%;
@@ -139,6 +144,8 @@ main {
 }
 
 .btn-no-style {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
   background: none;
   border: none;
   padding: 0;
@@ -153,7 +160,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #f37e08;
+  color: #ee34f7;
 }
 
 .delete-post-btn {
@@ -161,7 +168,7 @@ main {
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: #ee34f7;
 }
 
 .post {
