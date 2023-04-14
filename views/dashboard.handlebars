@@ -1,0 +1,31 @@
+<section>
+  <h2>Create New Post</h2>
+<!-- form used to create new posts on your dashboard page and also the homepage -->
+  <form class="new-post-form">
+    <div>
+      <label for="post-title">Title</label>
+      <input type="text" placeholder="Title of Post" id="post-title" name="post-title" />
+    </div>
+    <div>
+      <label for="description">Description</label>
+      <input id="description" placeholder="Description" name="description" />
+    </div>
+    <button type="submit" class="btn">Create</button>
+  </form>
+</section>
+<!-- shows all the blog posts you have made -->
+{{#if posts.length}}
+<section class="post-container">
+  <h2>Your Blog Posts</h2>
+  <ol>
+    {{#each posts as |post|}}
+    <li>
+      {{> post-info post}}
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+    </li>
+    {{/each}}
+  </ol>
+</section>
+{{/if}}
+
+<script src="/javascript/add-post.js"></script>

@@ -2,17 +2,11 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "daemon": "^1.1.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "handlebars": "^4.7.7",
-    "init": "^0.1.2",
-    "mysql2": "^3.2.0"
-  },
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/Rmontgomery4801/tech-blog/issues"
   },
-  "homepage": "https://github.com/Rmontgomery4801/tech-blog#readme"
+  "homepage": "https://github.com/Rmontgomery4801/tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }

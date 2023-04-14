@@ -4,27 +4,27 @@
 
 body,
 html {
-  background-color: #ccdad1;
+  background-color: #56d88a;
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
-  color: #333;
+  font-family: monospace;
+  color: black;
 }
 
 a {
-  text-decoration: none;
-  color: #225ca3;
+  text-decoration: underline;
+  color: #eaeef2;
   font-weight: bold;
   transition: color 0.1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #f3eb08;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #9933ff;
   border: 0;
   padding: 1%;
   color: white;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #f10707;
 }
 
 .login-form {
@@ -69,7 +69,7 @@ button:hover {
   width: 95%;
   margin-bottom: 15px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(215, 90, 240, 0.75);
 }
 
 textarea,
@@ -120,9 +120,10 @@ form label {
 }
 
 header {
-  background-color: #333;
+  background-color: rgb(20, 20, 20);
   border-bottom: 1px solid #ccc;
   display: flex;
+  font-family: monospace;
   justify-content: space-between;
   align-items: center;
   padding: 4% 5%;
@@ -143,7 +144,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #9933ff;
   font-size: 100%;
   font-weight: bold;
   transition: color 0.1s;
@@ -152,7 +153,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #f37e08;
 }
 
 .delete-post-btn {
